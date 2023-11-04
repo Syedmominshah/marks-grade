@@ -45,6 +45,9 @@ let message = "";
   else if (gradeinput <= 100){
     message="Grade A+"
   }
+  else if ( gradeinput > 100 ) {
+    message="percentage must be less than 100"
+  }
   document.querySelector("#resultWindow").innerHTML = message
   } 
     </script>
